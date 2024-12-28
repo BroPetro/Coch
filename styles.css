@@ -1,0 +1,14 @@
+.kristall {
+    
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+}
+.dropdown:hover 
+
+.dropdown-content { 
+    display: block;
+}
