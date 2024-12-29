@@ -34,6 +34,15 @@
     align-items: center;
     text-align: center;
 }
+.c3 {
+    position: absolute; 
+    top: 10000; 
+    right: 0; 
+    width: 100px;
+    height: 50opx;
+    background-color: lightblue;
+    margin: 10px;
+}
 .kristall {
     
 }
