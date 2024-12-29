@@ -1,7 +1,16 @@
 let cristal = 0;
-OnoButton.onclick = function () {
-function StyleBagroundText (){
-index.body.style.backgroundColor = "black";
-index.body.style.backgroundColor = "white";
-}
-};
+const button = document.getElementById('darkModeButton');
+
+
+button.addEventListener('click', function() {
+
+    if (document.body.style.backgroundColor === 'black') {
+
+        document.body.style.backgroundColor = 'white';
+        document.body.style.color = 'black';
+    } else {
+
+        document.body.style.backgroundColor = 'black';
+        document.body.style.color = 'white';
+    }
+});
