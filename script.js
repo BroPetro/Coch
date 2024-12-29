@@ -8,9 +8,12 @@ button.addEventListener('click', function() {
 
         document.body.style.backgroundColor = 'white';
         document.body.style.color = 'black';
+        div1.style.backgroundColor = 'lightblue';
     } else {
 
         document.body.style.backgroundColor = 'black';
         document.body.style.color = 'white';
+        div1.style.backgroundColor = 'darkblue';
+
     }
 });
